@@ -1,0 +1,14 @@
+{
+  "name": "cutpilot-resolve",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "bunx tsc --noEmit",
+    "audit": "bun run .agents/skills/adversarial-qa/scripts/audit-static.mjs ."
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.8.0"
+  }
+}
